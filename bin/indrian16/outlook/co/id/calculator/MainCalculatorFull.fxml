@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="indrian16.outlook.co.id.calculator.MainCalculatorController">
+   <children>
+      <TextField fx:id="input1" layoutX="592.0" layoutY="257.0" prefHeight="55.0" prefWidth="230.0" AnchorPane.bottomAnchor="456.0" AnchorPane.leftAnchor="592.0" AnchorPane.rightAnchor="544.0" AnchorPane.topAnchor="257.0" />
+      <TextField fx:id="input2" layoutX="592.0" layoutY="315.0" prefHeight="55.0" prefWidth="230.0" AnchorPane.bottomAnchor="398.0" AnchorPane.leftAnchor="592.0" AnchorPane.rightAnchor="544.0" AnchorPane.topAnchor="315.0" />
+      <Button fx:id="action" layoutX="592.0" layoutY="399.0" mnemonicParsing="false" onAction="#actionButton" prefHeight="55.0" prefWidth="230.0" text="Execute " AnchorPane.bottomAnchor="314.0" AnchorPane.leftAnchor="592.0" AnchorPane.rightAnchor="544.0" AnchorPane.topAnchor="399.0" />
+      <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" layoutX="376.0" layoutY="103.0" prefHeight="100.0" prefWidth="650.0" text="The reslut is [0]" AnchorPane.bottomAnchor="565.0" AnchorPane.leftAnchor="376.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="103.0">
+         <font>
+            <Font size="41.0" />
+         </font></Label>
+      <Button fx:id="fullScreen" layoutX="1033.0" layoutY="318.0" mnemonicParsing="false" onAction="#fullScreen" prefHeight="25.0" prefWidth="108.0" text="Full Screen" AnchorPane.bottomAnchor="425.0" AnchorPane.leftAnchor="1033.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="318.0" />
+      <Button fx:id="exit" layoutX="1033.0" layoutY="343.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="108.0" text="EXIT" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="1033.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="343.0" />
+      <Button fx:id="clearAll" layoutX="1033.0" layoutY="257.0" mnemonicParsing="false" onAction="#clearAll" prefHeight="25.0" prefWidth="108.0" text="Clear ALL" AnchorPane.bottomAnchor="486.0" AnchorPane.leftAnchor="1033.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="257.0" />
+   </children>
+</AnchorPane>
