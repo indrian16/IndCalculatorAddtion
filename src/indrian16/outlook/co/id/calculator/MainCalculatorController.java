@@ -38,17 +38,13 @@ public class MainCalculatorController implements Initializable {
 		int number1 = MainCalculatorController.this.getNumberInput1();
 		int number2 = MainCalculatorController.this.getNumberInput2();
 		
-		if (reslut > -999999999) {
-			
+		try {
 			reslut = model.setAddition(number1, number2);
 			status.setText("The reslut is "+"["+reslut+"]");
 			
-		} else if (input1.getText().isEmpty() || input2.getText().isEmpty()){
-			
-			status.setText("You need input Integer value");
-			
-		} else {
-			
+		} catch (Exception e) {
+			System.out.println("Oops Error" + e);
+			status.setText("You must fill in the value!");
 		}
 		
 	}

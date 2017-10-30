@@ -31,12 +31,10 @@ public class MainCalculator extends Application {
 		
 		Parent root = FXMLLoader.load(getClass().getResource("MainCalculator.fxml"));
 		
-		//Responsive
-		
-		
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.setTitle("Calculator Addtion");
+		stage.setResizable(false);
 		stage.show();		
 		
 	}
